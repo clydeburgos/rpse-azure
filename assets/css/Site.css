@@ -1,0 +1,123 @@
+﻿/* GLOBAL */
+/* @font-face {
+    font-family: Mittelschrift;
+    src: url(/assets/fonts/DIN1451Com-Mittelschrift.ttf);
+} */
+body {
+    font-size: 15px!important; 
+    line-height: 22px!important;
+    color: #333!important;
+    background: #fafaf8!important;
+    /* font-family: Mittelschrift; */
+}
+
+/* OVERRIDE */
+
+.input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 13px!important;
+    line-height: 1.5;
+    border-radius: 3px!important;
+}
+.form-control {
+    font-weight: bold;
+}
+
+.card-header {
+    font-weight: bold;
+}
+/*UTILITIES*/
+.flex {
+    display: flex;
+}
+.pad-10 {
+    padding: 10px!important;
+}
+
+.pad-x-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.pad-x-20 {
+    padding:20px 0px;
+}
+
+.pad-x-5 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.pad-y-5 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.mar-bot-10 {
+    margin-bottom: 10px!important;
+}
+
+.mar-bot-5 {
+    margin-bottom: 5px !important;
+}
+
+.default {
+    color: #777;
+}
+.primary {
+    color: #337ab7;
+}
+.success {
+    color: #5cb85c;
+}
+
+.warning {
+    color: #f0ad4e;
+}
+
+.danger {
+    color: #d9534f;
+}
+
+.info {
+    color: #5bc0de;
+}
+
+/*TYPEAHEAD*/
+.twitter-typeahead {
+    width: 100%!important;
+}
+.tt-menu {
+    width: 100% !important;
+    border-bottom: 1px solid #428bca;
+    border-left: 1px solid #428bca;
+    border-right: 1px solid #428bca;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding-top: 5px;
+    background-color: white !important;
+}
+.tt-dataset {
+    background-color: white !important;
+}
+.tt-selectable {
+    padding: 5px 5px 1px 5px !important;
+}
+
+    .tt-selectable:hover, .tt-selectable:hover span {
+        cursor: pointer;
+        background-color: #428bca;
+        color: white;
+    }
+
+.tt-selectable-detail {
+    color:#808080;
+    font-size: 11px;
+}
+    .tt-selectable-detail:hover {
+        color:white;
+    }
+
+div.dataTables_scrollBody thead {
+    visibility: hidden!important;
+}
